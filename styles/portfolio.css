@@ -17,6 +17,16 @@ body {
           padding: 15px 35px;
 }
 
+.section-title {
+          color:#181818;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 700;
+}
+.sectio-descreption{
+
+}
+
 /* -----------Nav Related Styles----------- */
 nav {
           display: flex;
@@ -48,16 +58,48 @@ nav a {
           columns: #474747;
 }
 
-#banner-greeting {
-          height: 400px;
+.banner-greeting {
+          font-size: 45px;
+          font-weight: 600;
+          margin-bottom: 0;
 }
+
+.banner-content {
+          max-width: 500px;
+}
+
+.banner-title {
+          font-size: 85px;
+          font-weight: 700;
+          margin-top: 5px;
+          margin-bottom: 20px;
+}
+
+.banner-description {}
 
 /* -----------Header Related Styles-------------  */
 .header {
           background-color: #FFF8F3;
+          background-image: url(../images/header_bg.png);
+          background-position: bottom right;
+          background-repeat: no-repeat;
+
 }
 
 .banner {
           display: flex;
           justify-content: space-around;
+          align-items: center;
+          padding: 30px 30px 0 150px;
+}
+
+/* -------------Main Section Styles------------- */
+
+
+/* ------------About Section Styles------------- */
+.about {
+          padding: 130px;
+          border-radius: 10px;
+          background: #FFF8F3;
+          margin: 130px 0;
 }
