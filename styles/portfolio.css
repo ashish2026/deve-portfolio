@@ -12,7 +12,7 @@ body {
           background: #FD6E0A;
           color: white;
           font-size: 20px;
-          font-weight: 700; 
+          font-weight: 700;
           border: 0;
           padding: 15px 35px;
 }
@@ -22,10 +22,12 @@ nav {
           display: flex;
           justify-content: space-around;
           align-items: center;
+          margin: 0 20px;
 
 }
-.nav-title{
-          font-size:50px;
+
+.nav-title {
+          font-size: 50px;
 }
 
 nav>ul {
@@ -44,4 +46,18 @@ nav li {
 nav a {
           text-decoration: none;
           columns: #474747;
+}
+
+#banner-greeting {
+          height: 400px;
+}
+
+/* -----------Header Related Styles-------------  */
+.header {
+          background-color: #FFF8F3;
+}
+
+.banner {
+          display: flex;
+          justify-content: space-around;
 }
